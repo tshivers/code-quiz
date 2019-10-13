@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Code Quiz</title>
+</head>
+<body>
+<!--Create main div container using Bootstrap-->   
+    <div class="quizContainer container-fluid well well-lg">
+        <div id="quiz" class="text-center">
+    </div>
+<!--This is the main header-->
+    <h1>Start Quiz</h1>
+
+<!--div and navigation options to view score and see time remaining on quiz -->
+        <div class="highScore">View High Score: </span><br/><span id="timer" style="font-size:40px;"></span></div>
+        <div id="iTimeShow">Time Remaining: </span><br/><span id="timer" style="font-size:25px;"></span></div>
+    </div>
+
+    <div class="question">input questions here</div>
+
+    <ul class="choiceList"></ul>
+
+    <div class="quizMessage">input choices here</div>
+
+    <div class="buttons">
+        <button class="previousButton">Previous Question</button>
+        <button class="nextButton">Next Question</button>
+    </div>
+
+    <div class="result">return answer here</div>
+
+ <script type="text/javascript" src="questions.js">
+    
+ </script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+.highScore {
+    text-align: left;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+#iTimeShow {
+    text-align: right;
+    font-weight: bolder;
+    color: red;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ul {
+    list-style: none;
+}
+
+.quizContainer {
+    background-color: wheat;
+    border-radius: 40px;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    -webkit-box-shadow: 10px 10px 6px rgb(136, 136, 136);
+    position: relative;
+}
+
+.quizContainer #quiz {
+    text-shadow: 2px 2px 4px white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.previousButton .nextButton {
+    box-shadow: 2px 2px 3px;
+    border-radius: 4px;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    /* color outlines to blue once clicked*/
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+.previousButton {
+    margin: 60px;
+    float: left;
+    right: 40%;
+    font-weight: bolder;
+    background-color: wheat;
+}
+
+.nextButton {
+    margin: 60px;
+    float: right;
+    right: 20%;
+    font-weight: bolder;
+    background-color: wheat;
+}
+
+.question {
+    box-shadow: 4px 4px 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    width: 70%;
+    height:auto;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.quizMessage {
+    box-shadow: 4px 4px 6px;
+    background-color: grey;
+    border-radius: 8px;
+    width: 40%;
+    margin: auto;  
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    position: center;
+    top: 80%;
+    padding: 5%;
+    margin-bottom: 80px;
+}
+
+.choiceList {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 20px;    
+    font-weight: 200;
+    padding: 20px;
+}
+
+.result {
+    box-shadow: 4px 4px 6px;
+    width: 20%;
+    height: auto;   
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    position: center;
+    top: 80%;
+    padding: 20px;
+}
