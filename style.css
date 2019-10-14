@@ -1,34 +1,52 @@
-.highScore {
-    text-align: left;
+.highScoreButton {
+    box-shadow: 4px 4px 6px;
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: top;
     font-weight: bolder;
     padding: 20px;
 }
 
-#iTimeShow {
-    text-align: right;
+#showTime {
+    box-shadow: 4px 4px 6px;
+    text-align: center; 
     font-weight: bolder;
     color: red;
+    margin: 0px 10px 10px 1200px;
     padding: 20px;
+}
+
+.quizContainer {
+    background-color: wheat;
+    border-radius: 40px;
+    width: 75%;
+    margin: auto;
+    padding-top: 20px;
+    -webkit-box-shadow: 10px 10px 6px rgb(136, 136, 136);
+    position: relative;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
     text-align: center;
-    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 2px;
 }
 
 .ul {
     list-style: none;
 }
 
-.quizContainer {
-    background-color: wheat;
-    border-radius: 40px;
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    -webkit-box-shadow: 10px 10px 6px rgb(136, 136, 136);
-    position: relative;
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+input[type=radio]{
+    border: 0px;
+    width: 10px;
+    height: 2em;
 }
 
 .quizContainer #quiz {
@@ -42,30 +60,29 @@ h1 {
     width: 120px;
     height: 80px;
     text-align: center;
-    /* color outlines to blue once clicked*/
-    color: blue;
-    font-family: 'Times New Roman', Times, serif;
     position: relative;
     margin: auto;
-    font-size: 40px;
-    font-weight: bold;
-    padding-top: 6px;
+  
 }
 
 .previousButton {
+    box-shadow: 4px 4px 6px;
     margin: 60px;
     float: left;
-    right: 40%;
+    left: 20%;
     font-weight: bolder;
-    background-color: wheat;
+    background-color: aquamarine;
+    padding: 20px;
 }
 
 .nextButton {
+    box-shadow: 4px 4px 6px;
     margin: 60px;
     float: right;
     right: 20%;
     font-weight: bolder;
-    background-color: wheat;
+    background-color: aquamarine;
+    padding: 20px;
 }
 
 .question {
@@ -73,9 +90,9 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
     font-weight: bold;
-    width: 70%;
+    width: 80%;
     height:auto;
-    margin: 60px auto;
+    margin: 50px auto;
     padding: 20px;
     border-radius: 8px;
     background-color: aquamarine;
@@ -84,16 +101,16 @@ h1 {
 
 .quizMessage {
     box-shadow: 4px 4px 6px;
-    background-color: grey;
+    background-color: lightgray;
     border-radius: 8px;
-    width: 40%;
+    width: 60%;
     margin: auto;  
     text-align: center;
     padding: 10px;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    color: blue;
+    color: aquamarine;
     position: center;
     top: 80%;
     padding: 5%;
@@ -104,13 +121,13 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
     font-size: 20px;    
-    font-weight: 200;
-    padding: 20px;
+    font-weight: bolder;
+    padding: 5px;
 }
 
 .result {
     box-shadow: 4px 4px 6px;
-    width: 20%;
+    width: 30%;
     height: auto;   
     border-radius: 10px;
     background-color: aquamarine;
