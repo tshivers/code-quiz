@@ -13,7 +13,7 @@
     <div class="highScores">
         <button class="highScoreButton">High Scores:</button>
     </div> 
-    <div id="showTime">Time Remaining:</span><br/><span id="timer"></span></div>   
+    <div id="showTime">Time Remaining:</span><br><br/><span id="timer"></span></div>   
   
     <!--Create main div container using Bootstrap-->   
     <div class="quizContainer container-fluid well well-lg">
@@ -23,7 +23,7 @@
         <!--div and navigation options to view score and see time remaining on quiz -->
     </div>
     
-    <div class="question"></div>
+    <div class="questions"></div>
 
     <ul class="choiceList"></ul>
 
@@ -37,5 +37,7 @@
     <div class="result"></div>
 
     <script src="questions.js"></script>
+
+   <form method="post" name="quiz" action="take_test.php"></form>
 </body>
 </html>
